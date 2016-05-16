@@ -1,0 +1,69 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  padding-top: 70x;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #373434;
+}
+
+/* Fixed Navbar styles
+-------------------------------------------------- */
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  right:0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 0;
+}
+.navbar-fixed-top .text-muted{
+  color: #FFFFFF;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  /*max-width: 680px;*/
+  padding: 0 15px;
+}
+.container .text-muted {
+  color: #FFFFFF;
+  margin: 20px 0;
+}
+
+/* ページトップ */
+#page-top {
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    font-size: 70%;
+}
+#page-top a {
+    background: #666;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+}
+#page-top a:hover {
+    text-decoration: none;
+    background: #999;
+}
